@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,700;1,700&display=swap');
+
+body{
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    
+}
+
+h1{
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+    font-family: "Sour Gummy", serif;
+    /* font-family: "Chewy", system-ui; */
+    font-size: 7.5rem;
+    margin: 0.25rem;
+}
+
+body{
+    background: #a9e5bb;
+}
+
+.definition{
+    color: black;
+}
+
+div p{
+    color: yellow;
+}
+
+p{
+    color: green;
+}
+
+.source{
+    color: green ;
+}
+
+#source{
+    color: yellow ;
+} 
+
