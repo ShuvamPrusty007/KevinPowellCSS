@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 700;
+    font-size: 75px;
+    margin: 0;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+p{
+    line-height: 1.75
+}
+
+a{
+    color: inherit;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+section{
+    padding: 120px 0;
+}
+
+.start{
+    background: rgb(41, 62, 70);
+    color: white;
+}
+
+.middle{
+    background: rgb(154, 199, 195);
+}
+
+.end{
+    background: gray;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    transition: all ease-in-out 250px;
+}
+
+.btn-normal{
+    background: rgb(36, 140, 146);
+}
+
+.btn-normal:hover{
+    background: rgb(36, 128, 125);
+}
+
+.btn-ghost{
+    border: 2px solid  white;
+    color: white;
+}
+
+.btn-ghost:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-awesome{
+    background: rgb(36, 140, 146);
+    box-shadow: 0px 4px 3px -2px rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.btn-awesome:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 18px 8px -10px rgba(0, 0, 0, 0.6);
+}

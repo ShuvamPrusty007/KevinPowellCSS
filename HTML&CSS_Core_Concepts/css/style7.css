@@ -1,0 +1,32 @@
+body{
+    padding: 5em;
+    text-align: center;
+}
+
+.box{
+    background-color: aquamarine;
+    padding: 2em;
+    width: 50%;
+    margin: 0em auto 10em;
+    /* border-bottom: 5px solid black; */
+    outline: 5px solid aquamarine;
+    outline-offset: 5px;
+}
+
+.button{
+    text-decoration: none;
+    display: inline-block;
+    background-color: steelblue;
+    padding: 1em 3em;
+    color: white;
+    
+    /* outline: 3px solid steelblue; */
+    outline: 3px solid white;
+    transition: all ease-in-out 300ms;
+}
+
+.button:hover{
+    /* outline: 3px solid steelblue; */
+    /* outline-offset: 5px; */
+    outline-offset: -8px;
+}
